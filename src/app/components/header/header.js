@@ -6,7 +6,6 @@ import Link from "pawjs/src/components/link";
 const Header = (props) => {
   return (
     <div className="container">
-      <Link className="m-2" to="/">Logo</Link>
       <ul className="nav d-inline-flex">
         <li className="nav-item">
           <Link
@@ -38,22 +37,6 @@ const Header = (props) => {
             to="/contact"
           >
             Contact
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link
-            className={classNames("nav-link", {active: props.url === "/progressive-image-rendering"})}
-            to="/progressive-image-rendering"
-          >
-            Progressive Image Rendering
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link
-            className={classNames("nav-link", {active: props.url === "/counter"})}
-            to="/counter"
-          >
-            Redux Counter
           </Link>
         </li>
       </ul>
