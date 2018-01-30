@@ -1,7 +1,6 @@
 import React, {Component} from "react";
 import Fold from "pawjs/src/components/fold";
-import ReactLogo from "src/resources/images/home.jpeg";
-import SmallImage from "src/resources/images/mario-large.png?sizes=100w+200w+400w+800w&placeholder";
+import HomeImage from "src/resources/images/home.jpeg";
 import Picture from "pawjs/src/components/picture/picture";
 
 export default class Home extends Component {
@@ -9,8 +8,8 @@ export default class Home extends Component {
     return (
       <div className="mt-4">
         <h1 className="h2 text-center mt-3">Non-Eggetarian</h1>
-        <img style={{ margin: "1rem"}} className="img-fluid mx-auto d-block center" src={ReactLogo} alt="eggless"/>
-        <p>
+        <img style={{ margin: "1rem"}} className="img-fluid mx-auto d-block center" src={HomeImage} alt="eggless"/>
+        <p  style={{textAlign:"justify"}}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Mauris bibendum enim quis ligula congue consequat. Maecenas
           a neque ac diam elementum sollicitudin. Praesent a libero sit
@@ -21,7 +20,7 @@ export default class Home extends Component {
           ullamcorper dapibus nulla, efficitur pharetra nisi sodales ut.
         </p>
         <Fold placeholder={() => <div className="text-center mt-3 mb-3">Loading folded content.. Please wait..</div>}>
-          <p>
+          <p  style={{textAlign:"justify"}}>
             Cras at elementum magna. Proin sed vulputate erat. Quisque magna nibh,
             posuere in mattis id, consectetur non nunc. Sed sodales diam risus,
             non facilisis augue cursus id. Nulla non magna at tellus tempor
