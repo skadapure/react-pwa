@@ -6,16 +6,9 @@ const Footer = () => {
   return (
     <footer className={styles.footer} >
       <div className="container">
-        <span>
-          Powered by&nbsp;
-          <a
-            href="https://www.atyantik.com"
-            target="_blank"
-            rel="noopener"
-          >
-            Atyantik Technologies Private Limited
-          </a>
-        </span>
+        <p style={{textAlign:"left"}}>
+          &copy;2018 XXX
+        </p>
       </div>
     </footer>
   );
