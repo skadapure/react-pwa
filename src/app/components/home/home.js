@@ -1,14 +1,15 @@
 import React, {Component} from "react";
 import Fold from "pawjs/src/components/fold";
-import HomeImage from "src/resources/images/home.jpeg";
+import large from "src/resources/images/largehome.jpeg";
+import small from "src/resources/images/smallhome.jpg";
 import Picture from "pawjs/src/components/picture/picture";
 
 export default class Home extends Component {
   render() {
     return (
-      <div className="mt-4">
-        <h1 className="h2 text-center mt-3">Non-Eggetarian</h1>
-        <img style={{ margin: "1rem"}} className="img-fluid mx-auto d-block center" src={HomeImage} alt="eggless"/>
+      <div className="container">
+      <div className="mt-2">
+      <img style={{ marginBottom: "1rem"}} className="img-fluid mx-auto center" src={small} alt="eggless"/> 
         <p  style={{textAlign:"justify"}}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Mauris bibendum enim quis ligula congue consequat. Maecenas
@@ -33,6 +34,7 @@ export default class Home extends Component {
             massa, in suscipit diam tortor id odio. Nunc convallis vitae felis eget aliquet.
           </p>
         </Fold>
+      </div>
       </div>
     );
   }

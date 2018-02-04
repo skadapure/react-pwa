@@ -24,7 +24,9 @@
   "babel": {
     "extends": "pawjs/src/babel/.babelrc"
   },
-  "dependencies": {},
+  "dependencies": {
+    "jquery": "^3.3.1"
+  },
   "devDependencies": {
     "pawjs": "^0.4.6"
   }

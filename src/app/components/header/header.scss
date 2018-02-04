@@ -1,0 +1,68 @@
+.header {
+  overflow: hidden;
+}
+.header a {
+  display: none;
+  @media (min-width: 1000px) {float: left;
+  display: block;
+  color: #131212;
+  text-align: right;
+  text-decoration: none;
+  font-size: 17px;}
+}
+
+.header a:hover {
+  text-decoration: underline;
+  
+}
+
+.active {
+  color: white;
+}
+
+.header button {
+  display: none;
+}
+
+
+.hide {
+  display: none;
+}
+@media (max-width: 1000px) {
+  .header a {display: none;}
+  .header button {
+    float: right;
+    display: block;
+  }
+}
+
+@media (max-width: 1000px) {
+  .hide {
+    display: block;
+    float: right;
+    text-align: right;
+  }
+  .hide a:hover {
+    text-decoration: underline;
+  }
+  .hide a {
+    display: none;
+  }
+  .hide ul {
+    position: absolute;
+    float: right;
+  }
+  .unhide a {
+    display: block;
+    min-width: 100%;
+    float: right;
+    color: #131212;
+    text-align: right;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+  .unhide li {
+    display: block;
+    min-width: 100%;
+  }
+}
