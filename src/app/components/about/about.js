@@ -9,7 +9,7 @@ export default class About extends Component {
   render() {
     return (
       <div className="row mt-3">
-        <div className="col-sm-3 blog-sidebar">
+        {/* <div className="col-sm-3 blog-sidebar">
           <div className={classNames("sidebar-module", styles["sidebar-module-inset"])}>
             <h4>About</h4>
             <p>
@@ -23,11 +23,10 @@ export default class About extends Component {
             <ol className="list-unstyled">
               <li><Link to="/about/about-us" animateSection="about-section" >About Us</Link></li>
               <li><Link to="/about/we-execute-your-dreams" animateSection="about-section">What do we do?</Link></li>
-              <li><Link to="/about/do-not-hire-us" animateSection="about-section">Looking for a team?</Link></li>
             </ol>
           </div>
-        </div>
-        <div className="pl-4 col-sm-6">
+        </div> */}
+        {/* <div className="pl-4 col-sm-6 container">
           <Transition
             sectionName="about-section"
             className={styles["animator"]}
@@ -36,6 +35,11 @@ export default class About extends Component {
           >
             {renderSubRoutes(this)}
           </Transition>
+        </div> */}
+        <div style={{paddingLeft: "2rem", paddingRight: "2rem", textAlign: "justify"}}>
+          <h1 class="h4">About Us</h1>
+          <h3 class="h6">The Ultimate Technology Maniacs</h3>
+          <p>We are a group of technology maniacs, extremely passionate about coding which means we do all the IT related tasks, so our clients do not have to. We bring passion to bear on client’s project and work hard to achieve the desired results. Our main aim is to provide our clients with cost effective, up to date and relevant software solutions. We love to constantly upgrade our technologies and keep our clients informed about new developments.</p>
         </div>
       </div>
     );
