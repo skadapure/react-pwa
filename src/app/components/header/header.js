@@ -5,12 +5,14 @@ import styles from "./header.scss"
 import Link from "pawjs/src/components/link";
 import $ from "jquery";
 
+import header from "src/resources/images/header.jpeg";
+
 class Header extends Component {
   render() {
     let props = this.props;
     return (
-    <div className="container" data-auto="header" style={{marginTop: "1rem"}}>
-        <div style={{display: "flex"}}>
+    <div data-auto="header"  className={styles["image"]} style={{backgroundImage: "url(" + header + ")", backgroundSize: "100% 100%"}} >
+        <div style={{display: "flex"}} className = "container">
           <div className="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1" style={{flex: "6 1 auto"}}>
             <div data-auto="header-name">
               <div>
@@ -95,8 +97,8 @@ class Header extends Component {
             </button>
           </div>
       </div>
-    </div>
-  );
+  </div>
+);
   }
   onClick() {
     var y = $(this.refs.button);

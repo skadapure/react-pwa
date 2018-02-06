@@ -1,7 +1,5 @@
 import React, {Component} from "react";
 import Fold from "pawjs/src/components/fold";
-import large from "src/resources/images/largehome.jpeg";
-import small from "src/resources/images/smallhome.jpg";
 import Picture from "pawjs/src/components/picture/picture";
 
 export default class Home extends Component {
@@ -9,7 +7,6 @@ export default class Home extends Component {
     return (
       <div className="container">
       <div className="mt-2">
-      <img style={{ marginBottom: "1rem"}} className="img-fluid mx-auto center" src={small} alt="eggless"/> 
         <p  style={{textAlign:"justify"}}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Mauris bibendum enim quis ligula congue consequat. Maecenas

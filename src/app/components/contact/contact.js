@@ -6,9 +6,8 @@ export default class Contact extends React.Component {
 
   render() {
     return (
-      <div className="text-center">
-        <h2 className={styles["thank-you-note"]}>Thank you for contacting us</h2>
-        <p>Go back to <Link to="/">home page</Link></p>
+      <div className="container text-left" style={{marginLeft: "1rem", marginTop: "1rem"}}>
+        <p>Like what I do?  Hit me up at <a href="mailto:noneggetarian@gmail.com">noneggetarian@gmail.com</a></p>
       </div>
     );
   }

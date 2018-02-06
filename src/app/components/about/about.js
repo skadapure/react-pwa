@@ -37,8 +37,7 @@ export default class About extends Component {
           </Transition>
         </div> */}
         <div style={{paddingLeft: "2rem", paddingRight: "2rem", textAlign: "justify"}}>
-          <h1 class="h4">About Us</h1>
-          <h3 class="h6">The Ultimate Technology Maniacs</h3>
+          <h3 className="h6">The Ultimate Technology Maniacs</h3>
           <p>We are a group of technology maniacs, extremely passionate about coding which means we do all the IT related tasks, so our clients do not have to. We bring passion to bear on client’s project and work hard to achieve the desired results. Our main aim is to provide our clients with cost effective, up to date and relevant software solutions. We love to constantly upgrade our technologies and keep our clients informed about new developments.</p>
         </div>
       </div>

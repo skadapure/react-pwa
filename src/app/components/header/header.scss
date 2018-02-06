@@ -1,5 +1,15 @@
 .header {
-  overflow: hidden;
+  overflow: wrap;
+}
+.image {
+  
+  height: 150px;
+  @media (min-width: 1025px){
+    height: 500px;
+  }
+  @media (min-width: 600px) and (max-width: 1024px){
+    height: 350px;
+  }
 }
 .header a {
   display: none;
