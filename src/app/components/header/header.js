@@ -57,7 +57,7 @@ class Header extends Component {
             </ul>
           </div>
           <div style={{textAlign: "right", alignSelf: "center", maxWidth: "100px"}}>
-            <button style={{fontSize:"22px", marginRight: ".35rem", textAlign: "right"}} className={styles["hide"]} onClick={this.onClick.bind(this)} ref="button">&#9776;
+            <button style={{}} className={styles["hide"]} onClick={this.onClick.bind(this)} ref="button">&#9776;
               <div>
                 <ul className="nav d-inline-flex">
                   <li className="nav-item">
@@ -102,16 +102,16 @@ class Header extends Component {
   }
   onClick() {
     var y = $(this.refs.button);
-    console.log(y[0].className);
+    // console.log(y[0].className);
     if (y[0].className.endsWith('unhide')) {
       let a = y[0].className.replace('unhide', 'hide');
       y[0].className = a;
-      console.log('y - ', y[0].className);
+      // console.log('y - ', y[0].className);
     }
     else {
       let b = y[0].className.replace('hide', 'unhide');
       y[0].className = b;
-      console.log('y - ', y[0].className);
+      // console.log('y - ', y[0].className);
   }
   }
 }
