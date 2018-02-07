@@ -56,8 +56,8 @@ class Header extends Component {
             </li>
             </ul>
           </div>
-          <div style={{textAlign: "right", alignSelf: "center", maxWidth: "100px"}}>
-            <button style={{}} className={styles["hide"]} onClick={this.onClick.bind(this)} ref="button">&#9776;
+          <div style={{textAlign: "right", maxWidth: "100px"}}>
+            <button style={{textAlign: "right", fontSize: "22px"}} className={styles["hide"]} onClick={this.onClick.bind(this)} ref="button">&#9776;
               <div>
                 <ul className="nav d-inline-flex">
                   <li className="nav-item">
