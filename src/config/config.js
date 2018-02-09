@@ -29,17 +29,15 @@ export default {
     "description": "Boilerplate for react, redux with server-side rendering for SEO and support for progressive web application"
   },
   seo: {
-    title: "Common Title",
-    site_name: "My Site Name",
-    description: "This is some temporary description, used if no other description is found",
+    title: "Eggless Delights",
+    site_name: "Non Eggetarian",
+    description: "This is recipe blog oriented towards helping cook food with out egg, which are other wise know to have eggs ",
     twitter: {
-      site: "@atyantik_tech",
-      creator: "@tirthbodawala"
+      site: "@skadapure",
+      creator: "@skadapure"
     },
     facebook: {
       admins: [
-        "1501220844",
-        "765904161",
       ],
     },
     meta: [
